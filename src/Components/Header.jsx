@@ -54,8 +54,68 @@ export class Header extends Component {
                     <NavLink className="dropdown-item" to="demo2">
                       Game 2
                     </NavLink>
-                    <NavLink className="dropdown-item" to="#">
-                      Action 2
+                    <NavLink className="dropdown-item" to="demo-datvephim">
+                      Đặt vé xem phim
+                    </NavLink>
+                    <NavLink className="dropdown-item" to="demo3">
+                      Game 3
+                    </NavLink>
+                  </div>
+                </li>
+                <li className="nav-item dropdown">
+                  <NavLink
+                    className="nav-link dropdown-toggle"
+                    to="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Styled Component (jss)
+                  </NavLink>
+                  <div className="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink className="dropdown-item" to="styled-component">
+                      demo styled component
+                    </NavLink>
+                  </div>
+                </li>
+                <li className="nav-item dropdown">
+                  <NavLink
+                    className="nav-link dropdown-toggle"
+                    to="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    React Hook
+                  </NavLink>
+                  <div className="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink className="dropdown-item" to="demo-usestate">
+                      demo useState Hook
+                    </NavLink>
+                    <NavLink className="dropdown-item" to="demo-useeffect">
+                      demo useEffect Hook
+                    </NavLink>
+                    <NavLink className="dropdown-item" to="demo-usecallback">
+                      demo useCallBack Hook
+                    </NavLink>
+                  </div>
+                </li>
+                <li className="nav-item dropdown">
+                  <NavLink
+                    className="nav-link dropdown-toggle"
+                    to="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    React animation
+                  </NavLink>
+                  <div className="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink className="dropdown-item" to="demo-usespring">
+                      useSpring
                     </NavLink>
                   </div>
                 </li>
